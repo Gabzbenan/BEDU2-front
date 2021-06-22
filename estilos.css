@@ -1,17 +1,21 @@
 body {
-    background-color: #c4c4c4;
+    background-color: #fdfdfd;
     margin: 0;
 	  padding: 0;
 
   }
+  main {
+    margin-top: 285px;
+    text-align: center;
+  }
   
 h1 {
-    color: #46484c;
+    color: #025157;
     text-align: center;
   }
   
 p {
-    color: #8b8b8bcc;
+    color: #343434;
     font-family: verdana;
     font-size: 20px;
   }
@@ -23,6 +27,14 @@ p {
     font-size: 0;
     line-height: 45px;
     font-family: sans-serif;
+    
+  }
+  .fixedHeader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
   }
   
 li {
@@ -76,4 +88,17 @@ li {
 .actions > * {
       margin-right: 10px;
       margin-left: 10px;
+  }
+  .cajaUno{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: azure;
+  justify-content: center;
+  width: 100%;
+  }
+  
+  .article{
+    display: flex;
+    flex-direction: column;
   }
