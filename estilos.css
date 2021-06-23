@@ -1,5 +1,5 @@
 body {
-    background-color: #fdfdfd;
+    background-color: #a1d683;
     margin: 0;
 	  padding: 0;
 
@@ -16,8 +16,10 @@ h1 {
   
 p {
     color: #343434;
-    font-family: verdana;
+    font-family: serif;
     font-size: 20px;
+    padding: 15px;
+    margin: 15px;
   }
   
 .header {
@@ -91,10 +93,6 @@ li {
   }
   .cajaUno{
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  color: azure;
-  justify-content: center;
   width: 100%;
   }
   
@@ -102,3 +100,44 @@ li {
     display: flex;
     flex-direction: column;
   }
+  .cajaLogos{
+    display: flex;
+    width: 40%;
+    flex-flow: column wrap;
+  }
+  .cajaDerecha{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+  }
+  .letraDerecha{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+  }
+  .letraT{
+    display: flex;
+    color: rgb(23, 57, 121);
+    font-size: 40px;
+    flex-direction: column;   
+  }
+  .contenidoTotal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .logosl{
+    display: inline-block;
+  }
+
+.botton1{
+  background-color: #025157;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  align-items: center;
+}
